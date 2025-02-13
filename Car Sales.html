@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Car Sales </title>
+<style>
+    header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 5px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+@keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .services {
+            padding: 20px;
+            text-align: center;
+        }
+        .services h2 {
+            margin-bottom: 20px;
+        }
+        .service-item {
+            display: inline-block;
+            background-color: #fff;
+            margin: 10px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            width: 300px;
+            transition: transform 0.3s;
+        }
+        .service-item:hover {
+            transform: translateY(-10px);
+        }
+        .service-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .service-item h3 {
+            margin: 10px 0;
+        }
+        .service-item p {
+            margin: 0 10px 10px;
+        }
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom:0;
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>Debola Autos & Professional Mechanic</h1>
+    </header>
+    <section id="services" class="services">
+        <div class="service-item">
+          <a href="contact mechanic.html"> <img src="Old School.jpg" alt="moto"></a>
+            <h3>Old School Cars</h3>
+            <p><strong>Get your 1900's cars</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="Muscle Camry.jpg" alt="Muscle">
+            <h3>Muscle Camry</h3>
+            <p><strong>#20 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="Toyota 4Runner.jpg" alt="4Runner">
+            <h3>Toyota Hilux</h3>
+            <p><strong>#25 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="Honda accord.jpg" alt="Accord">
+            <h3>Honda Accord</h3>
+            <p><strong>#15 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="Dodge Challenger.jpg" alt="Dodge">
+            <h3>Dodge Challenger</h3>
+            <p><strong>#55 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="Range rover.jpg" alt="Rover">
+            <h3>Range Rover sport</h3>
+            <p><strong>#120 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="Toyota Cross.jpg" alt="Toyota Cross">
+            <h3>Range Rover 2023</h3>
+            <p><strong>#80 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="Mercedes Benz.jpg" alt="Osheyy">
+            <h3>Mercedes Benz</h3>
+            <p><strong>#240 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="cadilac escalade.jpg" alt="cadilac">
+            <h3>Cadillac Escalade</h3>
+            <p><strong>#131 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="Lamborghini.jpg" alt="lambo fleet">
+            <h3>Lamborghini</h3>
+            <p><strong>#558 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="GMC Truck.jpg" alt="Presidente">
+            <h3>GMC ARMOUR</h3>
+            <p><strong>#81 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="Lamborghini Urus.jpg" alt="Lamborghini Urus">
+            <h3>Lamborghini Urus</h3>
+            <p><strong>#436 Billion</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="G-Wagon.jpg" alt="Benz">
+            <h3>G 63 AMG SUV</h3>
+            <p><strong>#280 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="Lexus Jeep.jpg" alt="Jeep">
+            <h3>Lexus Jeep E-29</h3>
+            <p><strong>#46 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="Aston Martin Vintage.jpg" alt="Aston">
+            <h3>Aston Martin-Vintage</h3>
+            <p><strong>#320 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="sienna.jpg" alt="Toyota Sienna">
+            <h3>Sienna TRD 4X4</h3>
+            <p><strong>#81 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="solara2.jpg" alt="Solara">
+            <h3>Toyota Solara</h3>
+            <p><strong>#16 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="nissan.jpg" alt="Nemo">
+            <h3>Nissan G-TR</h3>
+            <p><strong>#160 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="mini cooper.jpg" alt="Aesthetic">
+            <h3>Mini Cooper</h3>
+            <p><strong>#44 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="mazda.jpg" alt="Mazda">
+            <h3>Mazda 2019 CX-5 Turbo AWD</h3>
+            <p><strong>#56 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="camry 2009.jpg" alt="Muscle">
+            <h3>Toyota Camry 2009</h3>
+            <p><strong>#2.2 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="toyota camry 2007.jpg" alt="Muscle 2">
+            <h3>2007 Toyota Camry LE</h3>
+            <p><strong>#3 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="2010 Toyota Camry LE.jpg" alt="Muscle 3">
+            <h3>2010 Toyota Camry LE</h3>
+            <p><strong>#3 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="2017 toyota camry se.jpg" alt="Muscle 2">
+            <h3>2017 Toyota Camry SE</h3>
+            <p><strong>#4.6 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="2013 toyota corolla.jpg" alt="Corolla">
+            <h3>2013 Toyota Corolla</h3>
+            <p><strong>#15 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="xle sedan.jpg" alt="Big Daddy">
+            <h3>2003 Toyota Camry XLE Sedan</h3>
+            <p><strong>#3.8 million million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="venza.jpg" alt="Venza">
+            <h3>Toyota Venza 2010</h3>
+            <p><strong>#7 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="Le 2006.jpg" alt="Corolla">
+            <h3>2007 Toyota Corolla LE 2006</h3>
+            <p><strong>#3.7 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="Lexus 330.jpg" alt="Lexus">
+            <h3>Lexus ES 330 2005 Model</h3>
+            <p><strong>#3 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="corolla se model.jpg" alt="Corolla">
+            <h3>2007 Toyota Corolla SE 2007 Model</h3>
+            <p><strong>#3.7 million</strong></p>
+        </div>    
+        <div class="service-item">
+            <img src="lamborghini modified.jpg" alt="urus">
+            <h3>Lamborghini Urus Modified 2024</h3>
+            <p><strong>#300 million</strong></p>
+        </div>
+        <div class="service-item">
+            <img src="Audi R8.jpg" alt="White Death">
+            <h3>Audi R8 White Death</h3>
+            <p><strong>#60 million</strong></p>
+        </div>    
+         </section>    
+</body>
+<footer>
+    &copy; 2024 Debola Autos & Mechanic
+</footer>   
+</html>

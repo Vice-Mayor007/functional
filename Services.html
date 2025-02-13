@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debola Services</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        h2{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #34495e;
+        }
+        nav a {
+            color: #ecf0f1;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #e74c3c;
+        }
+        .hero {
+            background-image: url(urus.jpg);
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .services {
+            padding: 20px;
+            text-align: center;
+        }
+        .services h2 {
+            margin-bottom: 20px;
+        }
+        .service-item {
+            display: inline-block;
+            background-color: #fff;
+            margin: 10px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            width: 300px;
+            transition: transform 0.3s;
+        }
+        .service-item:hover {
+            transform: translateY(-10px);
+        }
+        .service-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .service-item h3 {
+            margin: 10px 0;
+        }
+        .service-item p {
+            margin: 0 10px 10px;
+        }
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .contact-form h2 {
+            text-align: center;
+        }
+        .contact-form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #e74c3c;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .contact-form button:hover {
+            background-color: #c0392b;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom:0;
+        }
+    </style>
+</head>
+    <header>
+        <h1>Debola Autos & Professional Mechanic</h1>
+    </header>
+    <body>
+        <section id="services" class="services">
+            <div class="service-item">
+                <img src="Engine Repair.jpg" alt="Service 1">
+                <h3>Engine Repair</h3>
+                <p>Comprehensive engine diagnostics and repair.</p>
+            </div>
+            <div class="service-item">
+                <img src="Brake Service.jpg" alt="Service 2">
+                <h3>Brake Service</h3>
+                <p>Ensure your safety with our brake services.</p>
+            </div>
+            <div class="service-item">
+                <img src="Oil Change.jpg" alt="Service 3">
+                <h3>Oil Change</h3>
+                <p>Keep your engine running smoothly.</p>
+            </div>
+            <div class="service-item">
+                <img src="Panel Beating.jpg" alt="panel beating">
+                <h3>Panel Beating</h3>
+                <p>Repairing dents, scratches,and holes in body panel</p>
+            </div>
+            <div class="service-item">
+                <img src="Rewire.jpg" alt="electrical rewiring">
+                <h3>Rewiring</h3>
+                <p>Repairing and upgrading new electrical components</p>
+            </div>
+            <div class="service-item">
+                <img src="Fuel pump.jpg" alt="fuel pump">
+                <h3>Fuel Pump</h3>
+                <p>Fuel efficiency and Exquisite Engine performance</p>
+            </div>
+            <div class="service-item">
+                <img src="Car plugs.jpg" alt="plugs">
+                <h3>Car plugs</h3>
+                <p>Heat dissipation and fuel ignition</p>
+            </div>
+            <div class="service-item">
+                <img src="Car wash.jpg" alt="car wash">
+                <h3>Car Wash</h3>
+                <p>Give life to yor car apperance <p>
+            </div>
+            <div class="service-item">
+                <img src="Power Steering.jpg" alt="steering engine">
+                <h3>Power Steering</h3>
+                <p>Reducing steering effort and imporved maneuverability</p>
+            </div>
+            <div class="service-item">
+                <img src="Gear Repair.jpg" alt="gear">
+                <h3>Gear Repair</h3>
+                <p>Proper gear maintenance and selection for optimal vehicle performance</p>
+            </div>
+            <div class="service-item">
+                <img src="dash Board fixing.jpg" alt="dashboard">
+                <h3> Dashboard Repair</h3>
+                <p>Vehicle performance data with Driver monitoring and assistance systems</p>
+            </div>
+            <div class="service-item">
+                <img src="Engine Replacement.jpg" alt="engine repair">
+                <h3>Engine Replacement</h3>
+                <p>Engine Swapping</p>
+            </div>
+            <div class="service-item">
+                <img src="vulca.jpg" alt="vulcer">
+                <h3>Vulcanizing</h3>
+                <p>Strengthen and Enhance Durability of Tyres</p>
+            </div>
+            <div class="service-item">
+                <img src="silencer.jpg" alt="Sales and Repairing of silencer.jpg">
+                <h3>Silencer</h3>
+                <p>Buying Swapping and Repairing or Silencer/Exhaust Pipe</p>
+            </div>
+            <div class="service-item">
+                <img src="winscreen.jpg" alt="Wind Screen Repair.jpg">
+                <h3>WindScree Repair/Fixing</h3>
+                <p>change damaged screen</p>
+            </div>
+            <div class="service-item">
+                <img src="bumper.jpg" alt="Bumper fixing.jpg">
+                <h3>Bumper</h3>
+                <p>Front and Back Bumper Replacement and Fixing</p>
+            </div>
+        </section>
+        </body>
+    <footer>
+        &copy; 2024 Debola Autos & Mechanic
+    </footer>   
+</html>
